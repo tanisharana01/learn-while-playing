@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+<h2>🎮 LearnPlay</h2>
+<div>
+<a href="index.html">Home</a>
+<a href="quiz.html">Quiz</a>
+<a href="learn.html">Learn</a>
+<a href="feedback.html">Feedback</a>
+</div>
+</nav>
+<h2>📚 Learn Section</h2>
+
+<div class="learn">
+
+<div class="card" onclick="showDetail('apple')">🍎 Apple</div>
+<div class="card" onclick="showDetail('dog')">🐶 Dog</div>
+<div class="card" onclick="showDetail('lion')">🦁 Lion</div>
+<div class="card" onclick="showDetail('sun')">☀️ Sun</div>
+<div class="card" onclick="showDetail('car')">🚗 Car</div>
+
+<div class="card" onclick="showDetail('cat')">🐱 Cat</div>
+<div class="card" onclick="showDetail('elephant')">🐘 Elephant</div>
+<div class="card" onclick="showDetail('fish')">🐟 Fish</div>
+<div class="card" onclick="showDetail('grapes')">🍇 Grapes</div>
+<div class="card" onclick="showDetail('house')">🏠 House</div>
+
+<div class="card" onclick="showDetail('icecream')">🍦 Ice Cream</div>
+<div class="card" onclick="showDetail('kite')">🪁 Kite</div>
+<div class="card" onclick="showDetail('monkey')">🐵 Monkey</div>
+<div class="card" onclick="showDetail('nest')">🪺 Nest</div>
+<div class="card" onclick="showDetail('orange')">🍊 Orange</div>
+
+<div class="card" onclick="showDetail('parrot')">🦜 Parrot</div>
+<div class="card" onclick="showDetail('queen')">👑 Queen</div>
+<div class="card" onclick="showDetail('rabbit')">🐰 Rabbit</div>
+<div class="card" onclick="showDetail('tiger')">🐯 Tiger</div>
+<div class="card" onclick="showDetail('tree')">🌳 Tree</div>
+
+</div>
+
+
+<div id="detailBox" class="detail-box">
+<h2 id="title"></h2>
+<p id="content"></p>
+<button class="close-btn" onclick="closeDetail()">✖</button>
+</div> 
+
+<div id="detailBox" class="detail-box">
+
+<button class="back-btn" onclick="closeDetail()">⬅ Back</button>
+
+<h2 id="title"></h2>
+<p id="content"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
